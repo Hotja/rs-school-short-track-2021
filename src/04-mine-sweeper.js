@@ -36,8 +36,6 @@ function minesweeper(matrix) {
       if (result[i][j] === '*') result[i][j] = 1;
     }
   }
-
-  console.log(result);
   return result;
 }
 
